@@ -54,7 +54,7 @@ namespace lab_4_Shageeva_Alena_BPI_23_01.ViewModel
             // относ путь
             string baseDir = AppDomain.CurrentDomain.BaseDirectory;
             string projectRoot = Path.GetFullPath(Path.Combine(baseDir, @"..\..\"));
-            path = Path.Combine(projectRoot, "DataModels", "PersonData1.json");
+            path = Path.Combine(projectRoot, "DataModels", "PersonData.json");
 
             ListPerson = new ObservableCollection<Person>();
             ListPersonDpo = new ObservableCollection<PersonDPO>();
